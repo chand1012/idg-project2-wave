@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class NewBall : MonoBehaviour
 {
-    Object ball;
+    public Object ball;
     // Start is called before the first frame update
     void Start()
     {
-        ball = Resources.Load("Ball");
+    
        // ClientScene.RegisterPrefab(ball);
     }
 
